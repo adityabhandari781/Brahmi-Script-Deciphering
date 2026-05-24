@@ -1,0 +1,46 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env*.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+**/venv/
+
+# Backend generated artifacts
+ArchaeoRestore-Python-Server/outputs/*.jpg
+ArchaeoRestore-Python-Server/outputs/*.json
+ArchaeoRestore-Python-Server/outputs/*.png
+
+# Node / Next.js
+**/node_modules/
+my-app/.next/
+my-app/out/
+my-app/build/
+my-app/coverage/
+my-app/.turbo/
+my-app/*.tsbuildinfo
+my-app/next-env.d.ts
+
+# Deployment
+my-app/.vercel/
